@@ -28,13 +28,13 @@ The workflow will be the following:
 ```pip install requirements.txt```
 
 3. Set up your MQTT Broker, and configure it on the Meraki Dashboard
-  1. Select your MV Camera
-  2. Go to Settings
-  3. Select Sense
-  4. Enable your MV Sense license
-  5. Select *Add or edit MQTT Brokers* and configure its parameters.
-  6. After you added your broker, select it on the dropdown list.
-  7. Save your changes. 
+    1. Select your MV Camera
+    2. Go to Settings
+    3. Select Sense
+    4. Enable your MV Sense license
+    5. Select *Add or edit MQTT Brokers* and configure its parameters.
+    6. After you added your broker, select it on the dropdown list.
+    7. Save your changes. 
 
 4. Configure your credentials on the *lamda_module/main.py* file.
 
