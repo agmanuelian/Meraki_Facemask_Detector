@@ -2,7 +2,7 @@
 
 ## Description
 
-This project integrates Meraki MV Cameras through their APIs to perform a deeper analysis through Amazon Rekognition, to detect when a person is wearing a facemask or not. The results will be posted on a Webex Teams space.
+This project integrates Meraki MV Cameras with Amazon Rekognition through their APIs to perform a deeper image analysis, to detect whether a person is wearing a facemask or not. The results will be posted into a Webex Teams space.
 
 ### Workflow
 
