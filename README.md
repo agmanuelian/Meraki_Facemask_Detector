@@ -28,7 +28,7 @@ The workflow will be the following:
 
 2. Install the required dependencies specified on the _requirements.txt_ file:
 
-```pip install requirements.txt```
+```pip3 install requirements.txt```
 
 3. Set up your MQTT Broker, and configure it on the Meraki Dashboard
     1. Select your MV Camera
