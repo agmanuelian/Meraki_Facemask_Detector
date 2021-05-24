@@ -39,7 +39,7 @@ The workflow will be the following:
     6. After you added your broker, select it on the dropdown list.
     7. Save your changes. 
 
-4. Configure your credentials on the *lamda_module/main.py* file.
+4. Configure your credentials on the *lambda_module/main.py* file.
 
 5. On you AWS account, set up your **Lambda Function**. When it's time to upload your code, zip the *lambda_module* directory, and upload the .zip file. 
 
@@ -63,7 +63,13 @@ The workflow will be the following:
 
 7. Replace your credentials on the *mqtt_trigger.py* file. The API URL that you got on the previous step, should be added to the script on this step.
 
-8. Add your recently created bot to a Webex room. The bot access token and the Room ID should be already configured on the *lamda_module/main.py* file.
+8. Add your recently created bot to a Webex room. The bot access token and the Room ID should be already configured on the *lambda_module/main.py* file.
 
 9. Run the *mqtt_trigger.py* script. You should see displayed on the terminal a real time feed of the detected people quantity. When a person gets in front of the camera, it will trigger the API call and process the function. The results will be posted on the Webex room.
+
+## Output
+
+This are the results of the image analysis posted into a Webex Room.
+
+![Results posted in a Webex Room](imgs/webex_room.png)
 
