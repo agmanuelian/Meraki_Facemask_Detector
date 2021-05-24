@@ -69,7 +69,7 @@ The workflow will be the following:
 
 ## Output
 
-This are the results of the image analysis posted into a Webex Room.
+These are the results of the image analysis posted into a Webex Room.
 
 ![Results posted in a Webex Room](imgs/webex_room.png)
 
