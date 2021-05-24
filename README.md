@@ -20,13 +20,9 @@ The workflow will be the following:
 ## Usage
 
 1. Clone this repo in your local machine typing on your terminal:
-
 ```https://github.com/agmanuelian/Meraki_Facemask_Detector.git```
-
 2. Install the required dependencies specified on the _requirements.txt_ file:
-
 ```pip install requirements.txt```
-
 3. Set up your MQTT Broker, and configure it on the Meraki Dashboard
   1. Select your MV Camera
   2. Go to Settings
@@ -35,6 +31,5 @@ The workflow will be the following:
   5. Select *Add or edit MQTT Brokers* and configure its parameters.
   6. After you added your broker, select it on the dropdown list.
   7. Save your changes. 
-
 4. Configure your credentials on the *lamda_module/main.py* file.
 
