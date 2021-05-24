@@ -55,8 +55,8 @@ The workflow will be the following:
 
 #### API Gateway Setup - Step 1
 
-![API Gateway Setup - Step 1](imgs/apigw_1.gif "API Gateway Setup - Step 1")
+![API Gateway Setup - Step 1](imgs/apigw1.gif "API Gateway Setup - Step 1")
 
 #### API Gatewat Setup - Step 2
 
-![API Gateway Setup - Step 1](imgs/apigw2.gif "API Gateway Setup - Step 1")
+![API Gateway Setup - Step 1](imgs/api_gw2.gif "API Gateway Setup - Step 1")
