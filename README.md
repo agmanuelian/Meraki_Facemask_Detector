@@ -38,3 +38,7 @@ The workflow will be the following:
 
 4. Configure your credentials on the *lamda_module/main.py* file.
 
+5. On you AWS account, set up your Lambda Function. When it's time to upload your code, zip the *lambda_module* directory, and upload the .zip file. 
+
+![Lambda Setup - Step 1](imgs/lambda_1.gif "Lambda Setup - Step 1")
+
