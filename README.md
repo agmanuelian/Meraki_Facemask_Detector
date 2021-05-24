@@ -47,6 +47,8 @@ The workflow will be the following:
 
 ![Lambda Setup - Step 1](imgs/lambda_1.gif "Lambda Setup - Step 1")
 
+After you do this, increase the execution time up to 15 seconds, under the Configuration tab.
+
 #### Lambda Setup - Step 2
 
 ![Lambda Setup - Step 2](imgs/lambda2.gif "Lambda Setup - Step 1")
