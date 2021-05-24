@@ -2,7 +2,7 @@
 
 ## Description
 
-This project integrates Meraki MV Cameras through their APIs to perform a deeper analysis on Amazon Rekognition, to detect when a person is detected if it's wearing a facemask or not. The results will be posted on a Webex Teams space.
+This project integrates Meraki MV Cameras through their APIs to perform a deeper analysis through Amazon Rekognition, to detect when a person is wearing a facemask or not. The results will be posted on a Webex Teams space.
 
 ### Workflow
 
@@ -28,13 +28,13 @@ The workflow will be the following:
 ```pip install requirements.txt```
 
 3. Set up your MQTT Broker, and configure it on the Meraki Dashboard
-  3. Select your MV Camera
-  3. Go to Settings
-  3. Select Sense 
-  3. Enable your MV Sense license
-  3. Select *Add or edit MQTT Brokers* and configure its parameters.
-  3. After you added your broker, select it on the dropdown list.
-  4. Save your changes. 
+  a. Select your MV Camera
+  b. Go to Settings
+  c. Select Sense 
+  d. Enable your MV Sense license
+  e. Select *Add or edit MQTT Brokers* and configure its parameters.
+  f. After you added your broker, select it on the dropdown list.
+  g. Save your changes. 
 
 4. Configure your credentials on the *lamda_module/main.py* file.
 
