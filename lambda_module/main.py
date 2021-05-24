@@ -12,7 +12,7 @@ s_key = 'YOUR_AWS_SECRET_KEY'
 
 # WEBEX
 access_token = "YOUR_AWS_ACCESS_KEY"
-teams_room = "Y2lzY29zcGFyazovL3VzL1JPT00vYzA0Mzk1MjAtYjM4Yy0xMWViLTllZGItMTEyMTIzY2QwMWJk" 
+teams_room = "YOUR_WEBEX_ROOM" 
 
 # MERAKI
 api_key = 'YOUR_MERAKI_API_KEY'
